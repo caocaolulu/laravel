@@ -21,6 +21,7 @@ class GoodsController extends Controller
     {
         //DB::connection()->enableQueryLog();
         //搜索分类品牌下拉框
+        echo 565;
         $res=Category::get();
         $brand=Brand::get();
         $info=getCategoryInfo($res);
